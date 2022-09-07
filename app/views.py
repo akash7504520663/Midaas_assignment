@@ -53,10 +53,8 @@ def user_logout(request):
 @login_required
 def prime_for_else(request):
     t1=time()
-    #a=int(input('enter a value'))
-    a=1
-    #b=int(input('enter b value'))
-    b=1000
+    a=int(input('enter a value'))
+    b=int(input('enter b value'))
     L=[]
     for n in range(a,b):
         if n>1:
